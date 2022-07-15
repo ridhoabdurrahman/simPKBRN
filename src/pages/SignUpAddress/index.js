@@ -20,7 +20,10 @@ const SignUpAddress = ({navigation}) => {
         <Gap height={16} />
         <Select labelTitle="District" />
         <Gap height={24} />
-        <Button text="Sign Up Now" />
+        <Button
+          text="Sign Up Now"
+          onPress={() => navigation.replace('SuccessSignUp')}
+        />
       </View>
     </View>
   );

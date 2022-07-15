@@ -22,7 +22,7 @@ export default SplashScreen;
 
 const styles = StyleSheet.create({
   wrapper: {
-    backgroundColor: '#025330',
+    backgroundColor: '#166534',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',

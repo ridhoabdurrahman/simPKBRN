@@ -3,7 +3,7 @@ import React from 'react';
 import {IlSuccess} from '../../assets';
 import {Button, Gap} from '../../components';
 
-const SuccessSignUp = () => {
+const SuccessSignUp = ({navigation}) => {
   return (
     <View style={styles.page}>
       <Text style={styles.title}>Success!</Text>
@@ -12,7 +12,7 @@ const SuccessSignUp = () => {
       <IlSuccess />
       <Gap height={150} />
       <View style={styles.buttonContainer}>
-        <Button text="Continue" />
+        <Button text="Continue" onPress={() => navigation.replace('MainApp')} />
       </View>
     </View>
   );

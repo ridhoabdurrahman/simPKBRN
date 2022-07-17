@@ -1,18 +1,18 @@
-import React, {useEffect} from 'react';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
+import React from 'react';
+import {BottomNavigator} from '../components';
 import {
+  Dukungan,
+  Home,
+  Profil,
   SignIn,
-  SplashScreen,
   SignUp,
   SignUpAddress,
-  SuccessSignUp,
-  Home,
-  Dukungan,
+  SplashScreen,
   Statistik,
-  Profil,
+  SuccessSignUp,
 } from '../pages';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {BottomNavigator} from '../components';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
